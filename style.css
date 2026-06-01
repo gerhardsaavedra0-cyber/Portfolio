@@ -1,0 +1,172 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+    min-height: 100vh;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}
+header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+a {
+    padding: 10px;
+    text-decoration-line: none;
+    color: white;
+
+}
+
+a:hover {
+    color: rgb(156, 156, 156);   
+}
+
+.photo img {
+    width: 200px;
+    border-radius: 40%;
+    border: 1px solid transparent;
+    outline: 5px dashed rgb(156, 156, 156);
+}
+
+#inicio {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(8, 8, 42, 0.6);
+    padding: 22px;
+    justify-content: center;
+}
+
+.presentation {
+    padding: 20px;
+}
+
+.presentation li {
+    margin-left: 20px;
+    list-style-type: circle;
+}
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(8, 8, 42, 0.6);
+    padding: 22px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+article {
+    padding: 20px;
+
+    background-color: rgba(19, 19, 21, 0.6);
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 70px;
+}
+
+
+
+
+
+
+
+
+i {
+    border-radius: 50%;
+    border: 4px solid transparent;
+    outline: 2px dashed rgb(156, 156, 156);
+}
+
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(8, 8, 42, 0.6);
+    height: 500x;
+    width: 300px;
+
+}
+
+.bot i {
+   
+    justify-content: space-between;
+}
+
+.bot {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+
+#proyectos {
+    display: flex;
+    align-items: flex-start;
+    flex-direction:column;
+    border-radius: 10px;
+    background-color: rgba(8, 8, 42, 0.6);
+    padding: 22px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.lista {
+    padding: 20px;
+    background-color: rgba(19, 19, 21, 0.6);
+    border-radius: 10px;
+}
+
+.proyecto {
+    display: block;
+    text-align: center;
+
+    padding: 20px;
+    background-color: rgba(19, 19, 21, 0.6);
+    border-radius: 10px;
+
+}
+
+#contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    border-radius: 10px;
+    padding: 22px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
